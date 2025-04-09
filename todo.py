@@ -7,3 +7,4 @@ def read_file():
     tasks = []
     with open("tasks.txt", "r") as f:
         tasks = f.readlines()
+    return tasks
